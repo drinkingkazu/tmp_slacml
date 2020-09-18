@@ -48,7 +48,8 @@ If you do not already have a SLAC Windows account, you can create one if you alr
 <img src="figures/jupyter_starting.png" width="80%">
 
 - That should open a new tab. Let's call this a **notebook tab**. You should see a screen like below.
-<img src="figures/jupyter_notebook.png" width="100%">
+
+<img src="figures/jupyter_notebook.png" width="80%">
 
 - Type 2 lines of command in the cell: 
 ```
@@ -56,14 +57,16 @@ import torch
 print(torch.Tensor([0.]).cuda().device)
 ```
 ... and _execute_ the cell (you can either hit "Run" button on the top, or hit "shift+enter" on your keyboard. If you see any error, please contact [Kazu](mailto:kterao@slac.stanford.edu).
-<img src="figures/jupyter_checked.png" width="100%">
+
+<img src="figures/jupyter_checked.png" width="80%">
 
 - Next, let's checkout the code repository we will use for the workshop! _Add a new cell_ by hitting "+" button on the top (next to sissors :)). That should add a new cell to type more commands. Type the following command and execute again.
 ```
 git clone https://github.com/drinkingkazu/tmp_slacml
 ```
 ... it should look like below (and again, if not, [hit Kazu](mailto:kterao@slac.stanford.edu)!).
-<img src="figures/jupyter_clone.png" width="100%">
+
+<img src="figures/jupyter_clone.png" width="80%">
 
 - Now go back to the **home tab** and you should see 2 new items.
   - Untitled.ipynb ... this is the _notebook_ you created and run some commands there
