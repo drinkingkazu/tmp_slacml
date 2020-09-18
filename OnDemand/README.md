@@ -72,11 +72,7 @@ git clone https://github.com/drinkingkazu/tmp_slacml
 ### 5. Party!
 Congrats! You have your computing instance up and running = ready for the workshop ... **hardware-wise** :)
 
-We assume some minimal knowledge about Python and scientific libraries. You just checked out the workshop repository, so you can go there and explore `tmp_slacml/Preparation` directory, or [read a brief documentation here](https://github.com/drinkingkazu/tmp_slacml/edit/master/Preparation/README.md). There are notebooks named **Python-0X-YYY.ipynb**. Start from 01 and try to look at look at all of them. You can execute all notebooks and see what happens. Modify and observe a difference in behavior. Again, [hit Kazu](mailto:kterao@slac.stanford.edu) for questions!
+We assume some minimal knowledge about Python and scientific libraries. You just checked out the workshop repository, so you can go there and explore `tmp_slacml/Preparation` directory, or [read a brief documentation here](https://github.com/drinkingkazu/tmp_slacml/blob/master/Preparation/README.md). There are notebooks named **Python-0X-YYY.ipynb**. Start from 01 and try to look at look at all of them. You can execute all notebooks and see what happens. Modify and observe a difference in behavior. Again, [hit Kazu](mailto:kterao@slac.stanford.edu) for questions!
 
 
-3. Execute a simple command in the cell
-    ```
-    import torch
-    torch.Tensor([0.]).cuda()
     ```
